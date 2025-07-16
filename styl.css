@@ -1,7 +1,11 @@
 
 
-
-    
+            @font-face {
+                font-family: 'Fugaz'; /* Nazwa, którą użyjesz w CSS */
+                src: url('FugazOne-Regular.ttf') format('ttf'), /* Ścieżka do pliku */
+                     
+      /* Możesz dodać więcej formatów */
+    }
         body {
             margin: 0;
             font-family: "Fugaz One", sans-serif;
