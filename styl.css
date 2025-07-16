@@ -23,18 +23,18 @@
             background-color: #444;
             display: flex;
             justify-content: center;
-            color: #eaa53b;
+            color: #ab8342;
         }
         nav a {
             color: white;
             text-decoration: none;
             padding: 1rem;
             transition: background-color 0.3s;
-            color: #eaa53b;
+            color: #ab8342;
         }
         nav a:hover {
             background-color: #666;
-            color: #eaa53b;
+            color: #ab8342;
         }
         .container {
             padding: 2rem;
