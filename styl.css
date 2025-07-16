@@ -1,7 +1,7 @@
 
 
             @font-face {
-                font-family: 'Fugaz One'; /* Nazwa, którą użyjesz w CSS */
+                font-family: 'Fugaz'; /* Nazwa, którą użyjesz w CSS */
                 src: url('FugazOne-Regular.ttf') format('ttf'), /* Ścieżka do pliku */
                      
       /* Możesz dodać więcej formatów */
@@ -52,7 +52,7 @@
             overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             text-align: center;
-            font-size:120%;
+            font-size:100%;
             
         }
         .card img {
@@ -60,7 +60,27 @@
             height: 180px;
             object-fit: cover;
         }
+        
         .card .info {
+            padding: 1rem;
+            color: black;
+        }
+                .cardi {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            font-size:100%;
+            
+        }
+        .cardi img {
+            width: 100%;
+            height: 370px;
+            object-fit: cover;
+        }
+        
+        .cardi .info {
             padding: 1rem;
             color: black;
         }
